@@ -1,0 +1,55 @@
+
+
+
+<!-- form常用的类 form-control / form-group -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>document</title>
+	<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/Users/lyra/Desktop/Subject/Bootstrap/index.css">
+</head>
+<body>
+	<form class="container container-small">
+		<h1>注册</h1>
+		<div class="form-inline form-group">
+			<div class="form-group has-warning">
+				<label class="control-lable">姓</label>
+				<input type="text" class="form-control input-lg"><!-- input-lg: 大 -->
+			</div>
+			<div class="form-froup">
+				<label>名</label>
+				<input type="text" class="form-control input-sm">
+			</div>
+			<div class="form-froup">
+				<label>金额</label>
+				<div class="input-group">
+					<div class="input-group">$</div>
+					<input type="text" class="form-control">
+				</div>
+			</div>
+			<div class="form-group has-error">
+				<label class="control-lable">来自</label>
+				<select class="form-control">
+					<option value="1">dundfh</option>
+					<option value="1">dfh</option>
+					<option value="1">dun</option>
+				</select>
+			</div>
+			<div class="row"><!-- 3个输入框放一行与其他显示框对齐 -->
+				<div class="col-sm-4">
+					<input type="text" class="form-control" placeholder="xxxx"><!-- placeholder="xxxx":显示xxxx -->
+				</div>
+				<div class="col-sm-4">
+					<input type="text" class="form-control">
+				</div>
+				<div class="col-sm-4">
+					<input type="text" class="form-control">
+				</div>
+			</div>
+
+		</div>
+	</form>
+</body>
+</html>
