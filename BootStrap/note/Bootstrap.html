@@ -1,0 +1,51 @@
+
+
+<!-- Bootstrap 引入知识 -->
+<!--
+	引入 : bootstrap.css库
+	form :设置登录、输入框
+	form-control: 输入框样式设置
+	form-group: 设置输入框之间的距离
+	container: 输入框居中显示
+	container-small:输入框的大小
+	alert alert-success: 绿色登录成功
+	btn btn-primary：颜色设置
+	btn-block：对齐显示
+
+	边栏引用：bootstrap.min.css
+	 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.css"><!-- boot.cdn上的css库 包含一些css样式设置内容-->
+</head>
+<style>
+	.btn.btn-primary {
+		background-color: #a20;
+		border-color: #a20;/*更改按钮颜色*/
+	}
+	.container-small{
+		max-width: 500px;/*设置用户名、密码显示框宽度*/
+	}
+</style>
+<body>
+	<h1>登陆</h1>
+		<form class="container container-small">
+			<div class="alert alert-success">登陆成功，正在跳转....</div>
+			<div class="form-group">
+				<label>用户名</label>
+				<input class="form-control" type="text" name="">
+			</div>
+			<div class="form-group">
+				<label>密码</label>
+				<input class="form-control" type="password" name="">
+			</div>
+			<div class="form-group">
+				<button class="btn btn-primary btn-block">登陆</button>
+			</div>
+		</form>
+</body>
+</html>
+

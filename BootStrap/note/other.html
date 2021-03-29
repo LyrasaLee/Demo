@@ -1,0 +1,66 @@
+<!-- 
+	class="pagination": 设置分页
+	class="active": 表示在当前页
+	class="disabled": 禁用
+	class="breadcrumb":层级显示
+	badge:能动态调整背景色
+	 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo</title>
+	<link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+	body {
+		max-width: 400px;
+		margin: 20px auto;
+	}
+</style>
+<body>
+	<div>
+		<div class="alert alert-success">上传成功....</div><!-- 显示评论成功、上传成功等内容 -->
+	</div>
+	<div class="breadcrumb"><!-- 层级显示 -->
+		<li><a href="/home">首页</a></li>
+		<li><a href="/posts">列表</a></li>
+		<li class="active">扣扣空 <span class="badge"> 50k</span></li><!-- 表示在当前页，不用链接 -->
+	</div>
+	<div>
+		<h1>world.</h1>
+		<p>
+			<span class="label label-success">mianju</span>
+			<span class="label label-info">mianju</span>
+			<span class="label label-danger">mianju</span>
+		</p>
+		<div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span class="label label-default">mianju</span>Mollitia eaque sit praesentium animi nihil perferendis explicabo vitae voluptates quas! Magni, itaque temporibus velit iste, explicabo nobis. In ratione corporis dolorum?</div>
+		<div>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum in id, eaque nulla aliquam aut quod illo? Doloremque libero assumenda accusantium recusandae modi odit soluta mollitia, nostrum aut atque. Velit?</div>
+		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quaerat adipisci, reiciendis optio eum, enim doloremque autem nisi voluptas maiores ipsam labore quae debitis laboriosam explicabo quibusdam ad assumenda fuga.</div>
+		<button class="btn btn-primary">赞 <span class="badge">10</span></button>
+	</div>
+	<div class="list-group">
+		<a class="list-group-item" href="#">item</a>
+		<a class="list-group-item" href="#">item</a>
+		<a class="list-group-item" href="#">item</a>
+		<a class="list-group-item" href="#">item</a>
+		<a class="list-group-item" href="#">item</a><!-- 常用于侧栏显示 -->
+	</div>
+	
+	<ul class="pagination">
+		<li><a href="#">上一页</a></li>
+		<li class="active"><a href="#">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">下一页</a></li>
+	</ul>
+	<ul class="pager">
+		<li><a href="#">上一页</a></li>
+		<li class="disabled"><a href="#">下一页</a></li>
+	</ul>
+</body>
+</html>
+
+
+
+

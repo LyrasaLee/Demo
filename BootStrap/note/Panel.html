@@ -1,0 +1,58 @@
+
+
+<!-- 
+	Panel:面板 视觉上分割类别,显示信息
+	panel-defult:
+	panel-heading:字体增大
+	panel-title：标题
+	small text-muted：字体缩小 text-muted；字体颜色变淡
+	panel-body:主内容
+	panel-success、info、warning、danger:标题栏颜色
+	panel-footer：面板脚部注释
+	 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!-- 浏览器兼容 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- 网页优化 viewport：用户可视区-->
+	<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
+	<!-- 全局时不用index.css里面设置的 -->
+	<link rel="stylesheet" href="/Users/lyra/Desktop/Subject/Bootstrap/index.css"> 
+</head>
+<body>
+	<div class="panel panel-default">
+		<div class="panel-heading"><!-- 增大字体 -->
+			<div class="panel-title">用户统计</div>
+			<div class="samll text-muted">每日用户情况统计</div>
+		</div>
+		<div class="panel-body">
+			Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Distinctio optio temporibus consequuntur deserunt eligendi nihil dignissimos necessitatibus, omnis quas tempora autem, minima laborum id sapiente dolores natus accusamus recusandae. Laborum!
+		</div>
+		<div class="panel-footer"><!-- 缩小字体 -->
+			<div class="small text-muted"><!-- text-muted: 字体颜色变淡(muted:静音) -->
+				数据更新于5秒前
+			</div>
+		</div>
+	</div>
+	<div class="panel panel-success">
+		<div class="panel-heading">用户统计</div>
+		<div class="panel-body">
+			Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Distinctio optio temporibus consequuntur deserunt eligendi nihil dignissimos necessitatibus, omnis quas tempora autem, minima laborum id sapiente dolores natus accusamus recusandae. Laborum!
+		</div>
+	</div>
+	<div class="panel panel-info">
+		<div class="panel-heading">用户统计</div>
+		<div class="panel-body">
+			Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Distinctio optio temporibus consequuntur deserunt eligendi nihil dignissimos necessitatibus, omnis quas tempora autem, minima laborum id sapiente dolores natus accusamus recusandae. Laborum!
+		</div>
+	</div>
+	<div class="panel panel-danger">
+		<div class="panel-heading">用户统计</div>
+		<div class="panel-body">
+			Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Distinctio optio temporibus consequuntur deserunt eligendi nihil dignissimos necessitatibus, omnis quas tempora autem, minima laborum id sapiente dolores natus accusamus recusandae. Laborum!
+		</div>
+	</div>
+</body>
+</html>
