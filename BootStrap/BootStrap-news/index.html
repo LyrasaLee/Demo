@@ -1,0 +1,327 @@
+
+
+
+
+<!-- 
+	background-image:url()
+	nav navbar-nav：向导航栏添加链接
+
+	导航栏：
+		logo: navbar-header 
+			  navbar-brand
+	左侧栏：
+		列表组：list-group
+		侧栏：side-bar
+		单栏：list-group-item
+	内容栏：
+		消息列表：news-list
+		提示信息：info
+		消息单项列表: news-list-item
+		消息标题：title	
+		头像: avatar
+		
+	右侧栏: 
+		搜索栏: search-bar form-control
+		外部链接栏: external-link-bar
+		链接体: link-body
+		链接列表: link-list
+		链接标题：link-title
+		链接描述:link-descript	
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/main.css">
+</head>
+
+
+<body>
+
+<!-- 导航栏 -->
+	<div class="navbar navbar-default"><!-- 用navbar: 与内容区有足够的空隙 -->
+		<div class="container">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand"></a><!-- Logo用背景形式来显示 -->
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="#">首页</a></li>
+				<li><a href="#">国内</a></li>
+				<li><a href="#">国际</a></li>
+				<li><a href="#">数读</a></li>
+				<li><a href="#">社会</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right"><!-- bootstrap 4 中ml-auto替换navbar-right(navbar-right在bootstrap中不用啦) -->
+				<li><a href="#">登陆</a></li>
+				<li><a href="#">注册</a></li>
+			</ul>
+		</div>		
+	</div>
+
+
+<!-- 内容区 -->
+	<div class="container">
+<!-- 左侧栏 -->
+		<div class="row">
+			<div class="col-sm-2">
+				<div class="list-group side-bar">
+					<a href="#" class="list-group-item active">item.</a>
+					<a href="#" class="list-group-item">item.</a>
+					<a href="#" class="list-group-item">item.</a>
+					<a href="#" class="list-group-item">item.</a>
+					<a href="#" class="list-group-item">item.</a>
+					<a href="#" class="list-group-item">item.</a>
+					<a href="#" class="list-group-item">item.</a>
+					<a href="#" class="list-group-item">item.</a>
+				</div>
+			</div>
+
+<!-- 消息区 -->
+			<div class="col-sm-7">
+				<div class="news-list">
+					<div class="news-list-item clearfix"><!-- clearfix:bootstrap中用于清除浮动 -->
+						<div class="col-xs-4">
+							<img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png" alt="news-img">
+						</div>
+						<div class="col-xs-8">
+							<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. neque excepturi eligendi tempore! </a>
+							<div class="info">
+								<span><span class="avatar"><img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png"></span>Lyra</span> .
+								<span>25k评论</span> .
+								<span>10分钟前</span>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix"><!-- clearfix:bootstrap中用于清除浮动 -->
+						<div class="col-xs-4">
+							<img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png" alt="news-img">
+						</div>
+						<div class="col-xs-8">
+							<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. neque excepturi eligendi tempore! </a>
+							<div class="info">
+								<span><span class="avatar"><img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png"></span>Lyra</span> .
+								<span>25k评论</span> .
+								<span>10分钟前</span>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix"><!-- clearfix:bootstrap中用于清除浮动 -->
+						<div class="col-xs-4">
+							<img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png" alt="news-img">
+						</div>
+						<div class="col-xs-8">
+							<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. neque excepturi eligendi tempore! </a>
+							<div class="info">
+								<span><span class="avatar"><img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png"></span>Lyra</span> .
+								<span>25k评论</span> .
+								<span>10分钟前</span>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix"><!-- clearfix:bootstrap中用于清除浮动 -->
+						<div class="col-xs-4">
+							<img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png" alt="news-img">
+						</div>
+						<div class="col-xs-8">
+							<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. neque excepturi eligendi tempore! </a>
+							<div class="info">
+								<span><span class="avatar"><img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png"></span>Lyra</span> .
+								<span>25k评论</span> .
+								<span>10分钟前</span>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix"><!-- clearfix:bootstrap中用于清除浮动 -->
+						<div class="col-xs-4">
+							<img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png" alt="news-img">
+						</div>
+						<div class="col-xs-8">
+							<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. neque excepturi eligendi tempore! </a>
+							<div class="info">
+								<span><span class="avatar"><img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png"></span>Lyra</span> .
+								<span>25k评论</span> .
+								<span>10分钟前</span>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix"><!-- clearfix:bootstrap中用于清除浮动 -->
+						<div class="col-xs-4">
+							<img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png" alt="news-img">
+						</div>
+						<div class="col-xs-8">
+							<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. neque excepturi eligendi tempore! </a>
+							<div class="info">
+								<span><span class="avatar"><img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png"></span>Lyra</span> .
+								<span>25k评论</span> .
+								<span>10分钟前</span>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix"><!-- clearfix:bootstrap中用于清除浮动 -->
+						<div class="col-xs-4">
+							<img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png" alt="news-img">
+						</div>
+						<div class="col-xs-8">
+							<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. neque excepturi eligendi tempore! </a>
+							<div class="info">
+								<span><span class="avatar"><img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png"></span>Lyra</span> .
+								<span>25k评论</span> .
+								<span>10分钟前</span>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix"><!-- clearfix:bootstrap中用于清除浮动 -->
+						<div class="col-xs-4">
+							<img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png" alt="news-img">
+						</div>
+						<div class="col-xs-8">
+							<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. neque excepturi eligendi tempore! </a>
+							<div class="info">
+								<span><span class="avatar"><img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png"></span>Lyra</span> .
+								<span>25k评论</span> .
+								<span>10分钟前</span>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix"><!-- clearfix:bootstrap中用于清除浮动 -->
+						<div class="col-xs-4">
+							<img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png" alt="news-img">
+						</div>
+						<div class="col-xs-8">
+							<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. neque excepturi eligendi tempore! </a>
+							<div class="info">
+								<span><span class="avatar"><img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png"></span>Lyra</span> .
+								<span>25k评论</span> .
+								<span>10分钟前</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+<!-- 右侧栏 -->
+			<div class="col-sm-3">
+				<div class="search-bar">
+					<input type="search" class="form-control" placeholder="搜一下">
+				</div>
+				<div class="side-bar-card flag clearfix">
+					<div class="col-xs-5">
+						<img src="/Users/lyra/Desktop/Subject/Bootstrap/Bootstrap_news/image/Logo-2.png">
+					</div>
+					<div class="col-xs-7">
+						<div class="text-lg">举报有奖</div>
+						<div>电话: 1234567</div>
+					</div>
+				</div>
+
+				<div class="side-bar-card">
+					<div class="card-title">24小时热闻</div>
+					<div class="card-body"><!-- card-body：不能有padding -->
+                        <div class="list"><!-- list下的东西可做模版重复用 -->
+                        	<div class="item">
+                        		<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, iste aliquid maxime. Est, natus.</a>
+                        	</div>
+                        	<div class="desc">15k阅读 1k评论</div><!-- 描述 -->
+                        </div>
+					</div>	
+					<div class="card-body"><!-- card-body：不能有padding -->
+                        <div class="list"><!-- list下的东西可做模版重复用 -->
+                        	<div class="item">
+                        		<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, iste aliquid maxime. Est, natus.</a>
+                        	</div>
+                        	<div class="desc">15k阅读 1k评论</div><!-- 描述 -->
+                        </div>
+					</div>	
+					<div class="card-body"><!-- card-body：不能有padding -->
+                        <div class="list"><!-- list下的东西可做模版重复用 -->
+                        	<div class="item">
+                        		<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, iste aliquid maxime. Est, natus.</a>
+                        	</div>
+                        	<div class="desc">15k阅读 1k评论</div><!-- 描述 -->
+                        </div>
+					</div>	
+					<div class="card-body"><!-- card-body：不能有padding -->
+                        <div class="list"><!-- list下的东西可做模版重复用 -->
+                        	<div class="item">
+                        		<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, iste aliquid maxime. Est, natus.</a>
+                        	</div>
+                        	<div class="desc">15k阅读 1k评论</div><!-- 描述 -->
+                        </div>
+					</div>	
+					<div class="card-body"><!-- card-body：不能有padding -->
+                        <div class="list"><!-- list下的东西可做模版重复用 -->
+                        	<div class="item">
+                        		<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, iste aliquid maxime. Est, natus.</a>
+                        	</div>
+                        	<div class="desc">15k阅读 1k评论</div><!-- 描述 -->
+                        </div>
+					</div>	
+					<div class="card-body"><!-- card-body：不能有padding -->
+                        <div class="list"><!-- list下的东西可做模版重复用 -->
+                        	<div class="item">
+                        		<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, iste aliquid maxime. Est, natus.</a>
+                        	</div>
+                        	<div class="desc">15k阅读 1k评论</div><!-- 描述 -->
+                        </div>
+					</div>	
+					<div class="card-body"><!-- card-body：不能有padding -->
+                        <div class="list"><!-- list下的东西可做模版重复用 -->
+                        	<div class="item">
+                        		<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, iste aliquid maxime. Est, natus.</a>
+                        	</div>
+                        	<div class="desc">15k阅读 1k评论</div><!-- 描述 -->
+                        </div>
+					</div>	
+					<div class="card-body"><!-- card-body：不能有padding -->
+                        <div class="list"><!-- list下的东西可做模版重复用 -->
+                        	<div class="item">
+                        		<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, iste aliquid maxime. Est, natus.</a>
+                        	</div>
+                        	<div class="desc">15k阅读 1k评论</div><!-- 描述 -->
+                        </div>
+					</div>	
+					<div class="card-body"><!-- card-body：不能有padding -->
+                        <div class="list"><!-- list下的东西可做模版重复用 -->
+                        	<div class="item">
+                        		<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, iste aliquid maxime. Est, natus.</a>
+                        	</div>
+                        	<div class="desc">15k阅读 1k评论</div><!-- 描述 -->
+                        </div>
+					</div>	
+					<div class="card-body"><!-- card-body：不能有padding -->
+                        <div class="list"><!-- list下的东西可做模版重复用 -->
+                        	<div class="item">
+                        		<a href="#" class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, iste aliquid maxime. Est, natus.</a>
+                        	</div>
+                        	<div class="desc">15k阅读 1k评论</div><!-- 描述 -->
+                        </div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
