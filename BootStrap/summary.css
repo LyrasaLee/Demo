@@ -1,0 +1,103 @@
+
+
+
+/*   -------  form --------
+
+	1.  form:用于表单注册登录等;
+			常用的类: 
+				form-group:
+			 	form-control: 表框样式;
+			 	form-inline: 内联表单(设置两个输入框在同一行);
+			 	control-lable: lable类;
+			 	container: 输入框居中显示;
+				container-small:输入框的大小;
+				row: 输入框行排列;
+				has-warning、success、error: 输入框边框颜色(和填充颜色不同) 
+				input-lg、small:输入框大小;
+
+			按钮:
+				btn-block: 按钮对齐显示(占整宽)
+				btn btn-primary、danger、warning、info、default(默认格式):按钮填充颜色设置
+				btn-lg、sm、xs: 按钮大小(不设置则为默认);
+				disabled="disabled":禁止使用;
+				well:按钮边距;
+				active: 高亮;
+			按钮组:
+				btn-group: 一组按钮;
+				btn-group-lg、sm、xs: 按钮组大小;
+				btn-toolbar: 按钮组水平对齐;
+				btn-group-vertical: 按钮组列式放置;
+
+			提示:
+				alert alert-success: 绿色登录成功;
+
+			区分input-group、form-group:
+				input-group: 向输入框添加样式(按钮，图标，文本);
+				form-group: 设置上下两个框的最佳间距;
+		注意:
+			设置密码时，type一定要改成password
+
+
+	2.  栅格:
+			母元素宽度为12
+			col: 列;
+			md、sm、xs: 中尺寸、小尺寸、最小尺寸;
+			表示: col-sm-7(占7份);
+
+	3.  导航(nav):
+			5种导航标签:
+				nav-bar: 整站导航
+				nav-tabs: 普通形式
+				nav-justified: 导航标签等宽
+				nav-pills: 导航各标签分开
+				nav-stacked: 导航标签叠放（可设为侧栏）
+
+		导航栏(navbar): 与内容区有足够的空隙
+			navbar-brand: 标志设置;
+			nav navbar-nav: 导航栏添加链接;
+			container:导航栏与内容区对齐(内容对齐);
+			navbar-default:导航栏类型(默认);
+
+	4.  面板(panel): 视觉上分割类别,显示信息(将内容分为各种部分显示)
+			panel-defult:默认格式
+			panel-heading:字体增大
+			panel-title：标题
+			small text-muted：字体缩小 text-muted；字体颜色变淡
+			panel-body:主内容
+			panel-success、info、warning、danger:标题栏颜色
+			panel-footer：面板脚部注释
+
+	5.  table:
+			table-striped：隔行显示背景色
+			table-hover:高亮
+			table-bordered: 边框
+			success、danger、info、warning:每行显示不同颜色
+
+	6.  class="pagination": 设置分页
+		class="active": 表示在当前页
+		class="disabled": 禁用
+		class="breadcrumb":层级显示
+		badge:能动态调整背景色
+
+	7.  输入、下拉框样式设置常用属性：
+
+		@.  lable标签常和input搭配使用,当<label>标签不在表单标签<form>中时，就需要使用form属性来指定所属表单；
+				语法：<label for="关联控件的id(input元素的id)" form="所属表单id列表">文本内容</label>
+
+		@.  boxShadow: 给下拉框添加阴影;
+				语法：box-shadow: h-shadow、 v-shadow、 blur(模糊距离)、 spread、 color、 inset;
+		
+		@.  transition：设置元素过滤效果
+				语法：transition: property、 duration、 timing-function(效果的转速曲线)、 delay;
+
+		@.	checked选择器：匹配每个选中的输入元素（仅适用于单选按钮或复选框）
+
+		@.  input-group-addon:在输入框内插入额外内容;
+
+	8.  
+		@.  background-image:url()  以背景形式显示图片
+		@.  border-radius: 3px;   设置圆角图片
+		@.  border-bottom: 1px solid #eee;  加上边框把每条消息分开
+		@.  background: rgba(0,0,0,.05);  背景色设置时没有效果，要用clearfix清除浮动 
+		@.  padding: 10px 0;   设置padding后，背景色里面的内容离边框远一些
+*/

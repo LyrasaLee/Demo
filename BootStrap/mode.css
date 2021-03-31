@@ -1,0 +1,36 @@
+
+
+/*   ----- 页面模版 -----
+
+	
+	导航栏模版:
+		左侧:
+			logo:navbar-header;
+				 navbar-brand(在header内使用);
+			导航栏链接: nav navbar-nav;
+		右侧:
+			登录、注册: navbar-right(ml-auto);
+
+	右侧栏模版: 
+		搜索栏: search-bar form-control
+		外部链接栏: external-link-bar
+			链接标题：link-title
+			链接列表: link-list
+			链接体: link-body
+			链接描述: link-descript
+	左侧栏模版:
+		列表组: list-group;
+		单项列表: list-single;
+	内容栏模版:
+		主页:
+			消息栏: news-bar;
+			消息列表: news-list;
+			消息标题: news-title;
+			提示描述: info(标准类);
+		详情页:
+			标题: title;
+			状态描述: status;
+			具体内容: content;
+
+
+*/
