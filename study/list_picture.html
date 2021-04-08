@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> <br>
+<img src="/Users/lyra/Desktop/personal folder/Studying/HTML/pictures/logo.png" style="float:left" width="50" height="50">   	<!图片1>
+</head>
+<body style="background-color:green">       <! 背景颜色>
+
+
+<! 1. 图片部分 >
+
+		<p style="font-size:80px;font-family:Times;letter-spacing:50px; color:white ">D<sub>e<sup>s<sub>k<sup>to<sub>p</p>  	<! desktop!>
+
+		<img src="/Users/lyra/Desktop/personal folder/Studying/HTML/pictures/desktop.png" width="720" height="200"><br>      <!图片2>
+
+		<a href="https://music.163.com/#/song?id=1495058484"><img src="/Users/lyra/Desktop/personal folder/Studying/HTML/pictures/logo.png" alt="网易云音乐" width="50" height="50"></a>   	 	
+		<! 创建图像链接：点击图标自动跳转到对应页面>      <!图片3>
+		<br><br><br><br>
+
+		<img src="/Users/lyra/Desktop/personal folder/Studying/HTML/pictures/logo.png" width="200" height="200" alt="logo"><! usemap="#logomap">       <!图片4>
+
+		<map name="logpmap">
+			<area shape="circle" >		<!coords 的值还不知道怎么确定>   
+			<br> <br><br>
+		 
+
+
+<! 2. 表格部分 >
+
+	<! 表格1，没有边框>
+		<table style="color:white">    	
+			<caption> 表格1 price list</caption>   	<! 表格标题>
+				<tr>
+					<th>num1</th>   <! th: 表头>
+					<th>num2</th>
+					<th>num3</th>
+				</tr>
+				<tr>    <! tr: 行>
+					<td>10</td>    <! td : 列>
+					<td>25</td>
+					<td>39</td>
+				</tr>			
+		</table><br> <br><br>
+
+
+	<! 表格2 有边框,单元格跨列>
+		<table border="1" style="color:white">
+			<caption> 表格2 persional information </caption>
+			<tr>
+				<th> Name</th>
+				<th colspan="3"> Telephon</th>
+			</tr>
+			<tr>
+				<td>Lyra Lee</td>
+				<td>56987</td>
+				<td>33657</td>
+				<td>32457</td>
+			</tr>
+		</table><br> 
+
+
+	<! 表格3  有边框，单元格跨行>
+		<table border="1" style="color:white">
+			<caption> 表格3.1 persional information </caption>
+			<tr>
+				<th> Name</th>
+				<td>Lyra Lee</td>
+				
+			</tr>
+			<tr>
+				<th rowspan="3"> Telephon</th>	
+				<td>56987</td>
+			</tr>
+			<tr>
+				<td>33657</td>
+			</tr>
+			<tr>
+				<td>32457</td>
+			</tr>
+		</table>  <br>
+
+		<table border="1" style="color:white" cellpadding="20"> <! 间距 >
+			<caption> 表格3.2 persional information </caption>
+			<tr>
+				<th> Name</th>
+				<td>Lyra Lee</td>
+				
+			</tr>
+			<tr>
+				<th rowspan="3"> Telephon</th>	
+				<td>56987</td>
+			</tr>
+			<tr>
+				<td>33657</td>
+			</tr>
+			<tr>
+				<td>32457</td>
+			</tr>
+		</table>  <br>
+
+				<table border="1" style="color:white" cellpadding="20" cellspacing="20">   <! 填充 + 间距>
+			<caption> 表格3.3 persional information </caption>
+			<tr>
+				<th> Name</th>
+				<td>Lyra Lee</td>
+				
+			</tr>
+			<tr>
+				<th rowspan="3"> Telephon</th>	
+				<td>56987</td>
+			</tr>
+			<tr>
+				<td>33657</td>
+			</tr>
+			<tr>
+				<td>32457</td>
+			</tr>
+		</table>  <br>
+
+
+
+
+
+    <! 表格4  表格内有标签>
+		<table border="1" style="color:white">
+			<caption> 表格4 </caption>
+			<td>
+				<p> 段落1 </p>
+				<p> 段落2 </p>
+			</td>
+			<td>
+				 <p>包含有表格:
+
+				 	<table  border="1" style="color:white">
+						<tr>
+							<td> A </td>
+							<td> B </td>
+						</tr>
+						<tr>
+							<td> C </td>
+							<td> D </td>
+						</tr>	
+					</table>
+				</p>			
+			</td>
+			<tr>
+				<td>					
+					<p>包含有无序列表：				
+						<ul>
+							<li> apples </li>
+							<li> bananas </li>
+							<li> pineapples </li>
+						</ul>
+					</p>				
+				</td>
+				<td>
+					<p>包含有有序列表：
+						<ol>
+							<li> apples </li>
+							<li> bananas </li>
+							<li> pineapples </li>
+						</ol>
+					</p>
+				</td>
+			</tr>		
+		</table>
+
+
+
+<! 3. 列表嵌套 >
+	<! 嵌套两层 >
+		<p style="color:white"> 列表1 </p>
+			<ul border="1" style="color:white">
+				<li> Coffee </li>
+				<li> Tea </li>
+				<ul>
+					<li> Black tea </li>
+					<li> Green tea </li>
+					<ul>
+						 <li> China </li>
+						 <li> Africa </li>
+					</ul>
+				</ul>
+			</ul>
+			<ul border="1" style="color:white">
+				<li> Milk </li>
+			</ul>
+		
+
+	<! 自定义列表 >
+		<p style="color:white"> 列表2 </p>
+			<dl border="1" style="color:white">
+				<dt> Coffee </dt>
+					<dl>
+						<dd> -Black hot drink </dd>
+					</dl>
+				<dt> Milk </dt>
+					<dl>
+						<dd> -White cold drink </dd>
+					</dl>
+			</dl><br><br>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
