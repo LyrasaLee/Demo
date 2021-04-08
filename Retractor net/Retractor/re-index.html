@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Retractor-net</title>
+	<link rel="stylesheet" href="re-index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="header">
+		<div class="header-top clearfix"> <!-- 背景色没有设置到时，加上clearfix即可 -->
+			<ul class="nav navbar-nav url-lf clearfix">
+				<li><a href="#" class="h-logo">拉勾</a></li>
+				<li><a href="#" class="h-station">全国站</a></li>
+				<li><a href="#" class="h-city">[切换城市]</a>	</li>
+			</ul>
+			<ul class="nav navbar-nav url-md clearfix">
+				<li><a href="#" class="md">首页</a></li>
+				<li><a href="#" class="md">公司</a></li>
+				<li><a href="#" class="md">校园</a></li>
+				<li><a href="#" class="md">言职</a></li>
+				<li><a href="#" class="md">课程</a></li>
+			</ul>
+			<ul class=" nav navbar-nav url-rt clearfix navbar-right">
+				<li><a href="#">登录</a></li>
+				<li><a href="#">注册</a></li>
+				<li><a href="#" class="app">拉勾APP</a></li>
+				<li><a href="#">进入企业版</a></li>
+			</ul>
+		</div>
+		<div class="header-buttom clearfix">
+			<div class="col-sm-7">
+				<div class="bu-lf">7555585家公司|67676767个职位在拉钩等你</div>
+			</div>
+			 <div class="col-sm-5"> <!--  clearfix --> 
+				<ul class=" bu-rt input-group nav navbar-nav navbar-right clearfix">
+					<li class="num"><!--  clearfix -->
+						<input type="text" class="form-control" placeholder="输入手机号">
+					</li>
+					<li>
+						<div class="input-group code"><!--  clearfix -->
+							<input type="text" class="form-control" placeholder="验证码">
+							<a href="#" class=" input-group-addon ">获取</a>
+						</div>
+					</li>
+					<li><!--  class="clearfix" -->
+						<input type="text" class="form-control" placeholder="登录/注册">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="search">
+		<form class="container container-small">
+			<ul class="nav navbar-nav">
+				<li class="input-group input-s"> <!-- 去掉前面序号标识符 -->
+					<div class="input-group input-s"><!--  clearfix -->
+						<input type="text" class="form-control input-ad" placeholder="输入公司、职位和地址">
+						<a href="#" class="input-group-addon">搜索</a>
+					</div>
+				</li>
+			</ul>
+		</form>
+		<form class="container">
+			<ul class="nav navbar-nav hot-search">
+				<li><a href="#" class="hot">热门搜索 : </a></li>
+				<li><a href="#" class="h">24小时极速入职</a></li>
+				<li><a href="#" class="h">名企校招早班车</a></li>
+				<li><a href="#" class="h">Java面试</a></li>
+				<li><a href="#" class="h">架构设计</a></li>
+				<li><a href="#" class="h">数据分析</a></li>
+				<li><a href="#" class="h">PHP</a></li>
+				<li><a href="#" class="h">C++</a></li>
+			</ul> 
+		</form>
+	</div>
+	<div class="sort">
+		<div class="col-sm-8"></div>			
+		<div class="col-sm-4"></div>
+	</div>
+	<div class="hour-hot">
+
+		<div class="hot-title clearfix">
+			<ul class="nav navbar-nav hot-search">
+				<li><a href="#" class="hots">24Hour热门</a></li>
+				<li><a href="#" class="news">最新职位</a></li>
+			</ul> 
+		</div>		
+
+		<div class="hot-tips">
+			<span> ? 在过去的24小时，最多人看过的岗位在这里 </span>
+			<a href="#" class="know">我知道了</a>
+		</div>
+
+		<div class="hot-content clearfix">			
+			<div class="col-sm-4 hot-list">
+				<div class="col-xs-11">
+					<p class="position">
+						<a href="#">Java开发工程师</a>
+						<a href="#" class="time">[10:35发布]</a>
+						<span class="wage">10k-15k</span>
+					</p>
+					<p class="experience-degree">
+						<span class="experience">经验5-10年/大专</span>
+					</p>
+					<p class="lable">
+						<span class="net1">电商</span>
+						<span class="net2">移动互联网</span>
+					</p>
+					<p class="firm"> 
+						<div class="col-xs-3">
+							<img src="#" class="picture">
+						</div>
+						<div class="col-xs-9">
+							<a href="#" class="firm-name">长沙千峰教育科技有限公司</a>
+							<div class="name-tips">教育/未融资/长沙</div>
+						</div>
+					</p>
+				</div>
+				<div class="col-xs-1">
+					<p class="pad">lor</p>
+				</div>
+			</div>
+			<div class="col-sm-4 hot-list">
+				<div class="col-xs-11">
+					<p class="position">
+						<a href="#">Java开发工程师</a>
+						<a href="#" class="time">[10:35发布]</a>
+						<span class="wage">10k-15k</span>
+					</p>
+					<p class="experience-degree">
+						<span class="experience">经验5-10年/大专</span>
+					</p>
+					<p class="lable">
+						<span class="net1">电商</span>
+						<span class="net2">移动互联网</span>
+					</p>
+					<p class="firm"> 
+						<div class="col-xs-3">
+							<img src="#" class="picture">
+						</div>
+						<div class="col-xs-9">
+							<a href="#" class="firm-name">长沙千峰教育科技有限公司</a>
+							<div class="name-tips">教育/未融资/长沙</div>
+						</div>
+					</p>
+				</div>
+				<div class="col-xs-1">
+					<p class="pad">lor</p>
+				</div>
+			</div>
+			<div class="col-sm-4 hot-list">
+				<div class="col-xs-11">
+					<p class="position">
+						<a href="#">Java开发工程师</a>
+						<a href="#" class="time">[10:35发布]</a>
+						<span class="wage">10k-15k</span>
+					</p>
+					<p class="experience-degree">
+						<span class="experience">经验5-10年/大专</span>
+					</p>
+					<p class="lable">
+						<span class="net1">电商</span>
+						<span class="net2">移动互联网</span>
+					</p>
+					<p class="firm"> 
+						<div class="col-xs-3">
+							<img src="#" class="picture">
+						</div>
+						<div class="col-xs-9">
+							<a href="#" class="firm-name">长沙千峰教育科技有限公司</a>
+							<div class="name-tips">教育/未融资/长沙</div>
+						</div>
+					</p>
+				</div>
+				<div class="col-xs-1">
+					<p class="pad">lor</p>
+				</div>
+			</div>
+			<div class="col-sm-4 hot-list">
+				<div class="col-xs-11">
+					<p class="position">
+						<a href="#">Java开发工程师</a>
+						<a href="#" class="time">[10:35发布]</a>
+						<span class="wage">10k-15k</span>
+					</p>
+					<p class="experience-degree">
+						<span class="experience">经验5-10年/大专</span>
+					</p>
+					<p class="lable">
+						<span class="net1">电商</span>
+						<span class="net2">移动互联网</span>
+					</p>
+					<p class="firm"> 
+						<div class="col-xs-3">
+							<img src="#" class="picture">
+						</div>
+						<div class="col-xs-9">
+							<a href="#" class="firm-name">长沙千峰教育科技有限公司</a>
+							<div class="name-tips">教育/未融资/长沙</div>
+						</div>
+					</p>
+				</div>
+				<div class="col-xs-1">
+					<p class="pad">lor</p>
+				</div>
+			</div>
+			<div class="col-sm-4 hot-list">
+				<div class="col-xs-11">
+					<p class="position">
+						<a href="#">Java开发工程师</a>
+						<a href="#" class="time">[10:35发布]</a>
+						<span class="wage">10k-15k</span>
+					</p>
+					<p class="experience-degree">
+						<span class="experience">经验5-10年/大专</span>
+					</p>
+					<p class="lable">
+						<span class="net1">电商</span>
+						<span class="net2">移动互联网</span>
+					</p>
+					<p class="firm"> 
+						<div class="col-xs-3">
+							<img src="#" class="picture">
+						</div>
+						<div class="col-xs-9">
+							<a href="#" class="firm-name">长沙千峰教育科技有限公司</a>
+							<div class="name-tips">教育/未融资/长沙</div>
+						</div>
+					</p>
+				</div>
+				<div class="col-xs-1">
+					<p class="pad">lor</p>
+				</div>
+			</div>
+			<div class="col-sm-4 hot-list">
+				<div class="col-xs-11">
+					<p class="position">
+						<a href="#">Java开发工程师</a>
+						<a href="#" class="time">[10:35发布]</a>
+						<span class="wage">10k-15k</span>
+					</p>
+					<p class="experience-degree">
+						<span class="experience">经验5-10年/大专</span>
+					</p>
+					<p class="lable">
+						<span class="net1">电商</span>
+						<span class="net2">移动互联网</span>
+					</p>
+					<p class="firm"> 
+						<div class="col-xs-3">
+							<img src="#" class="picture">
+						</div>
+						<div class="col-xs-9">
+							<a href="#" class="firm-name">长沙千峰教育科技有限公司</a>
+							<div class="name-tips">教育/未融资/长沙</div>
+						</div>
+					</p>
+				</div>
+				<div class="col-xs-1">
+					<p class="pad">lor</p>
+				</div>
+			</div>
+			<div class="col-sm-4 hot-list">
+				<div class="col-xs-11">
+					<p class="position">
+						<a href="#">Java开发工程师</a>
+						<a href="#" class="time">[10:35发布]</a>
+						<span class="wage">10k-15k</span>
+					</p>
+					<p class="experience-degree">
+						<span class="experience">经验5-10年/大专</span>
+					</p>
+					<p class="lable">
+						<span class="net1">电商</span>
+						<span class="net2">移动互联网</span>
+					</p>
+					<p class="firm"> 
+						<div class="col-xs-3">
+							<img src="#" class="picture">
+						</div>
+						<div class="col-xs-9">
+							<a href="#" class="firm-name">长沙千峰教育科技有限公司</a>
+							<div class="name-tips">教育/未融资/长沙</div>
+						</div>
+					</p>
+				</div>
+				<div class="col-xs-1">
+					<p class="pad">lor</p>
+				</div>
+			</div>
+			<div class="col-sm-4 hot-list">
+				<div class="col-xs-11">
+					<p class="position">
+						<a href="#">Java开发工程师</a>
+						<a href="#" class="time">[10:35发布]</a>
+						<span class="wage">10k-15k</span>
+					</p>
+					<p class="experience-degree">
+						<span class="experience">经验5-10年/大专</span>
+					</p>
+					<p class="lable">
+						<span class="net1">电商</span>
+						<span class="net2">移动互联网</span>
+					</p>
+					<p class="firm"> 
+						<div class="col-xs-3">
+							<img src="#" class="picture">
+						</div>
+						<div class="col-xs-9">
+							<a href="#" class="firm-name">长沙千峰教育科技有限公司</a>
+							<div class="name-tips">教育/未融资/长沙</div>
+						</div>
+					</p>
+				</div>
+				<div class="col-xs-1">
+					<p class="pad">lor</p>
+				</div>
+			</div>
+			<div class="col-sm-4 hot-list">
+				<div class="col-xs-11">
+					<p class="position">
+						<a href="#">Java开发工程师</a>
+						<a href="#" class="time">[10:35发布]</a>
+						<span class="wage">10k-15k</span>
+					</p>
+					<p class="experience-degree">
+						<span class="experience">经验5-10年/大专</span>
+					</p>
+					<p class="lable">
+						<span class="net1">电商</span>
+						<span class="net2">移动互联网</span>
+					</p>
+					<p class="firm"> 
+						<div class="col-xs-3">
+							<img src="#" class="picture">
+						</div>
+						<div class="col-xs-9">
+							<a href="#" class="firm-name">长沙千峰教育科技有限公司</a>
+							<div class="name-tips">教育/未融资/长沙</div>
+						</div>
+					</p>
+				</div>
+				<div class="col-xs-1">
+					<p class="pad">lor</p>
+				</div>
+			</div>
+			<div class="more">
+				<a href="#" class="more-on">查看更多</a>
+			</div>
+			
+		</div>
+	</div>
+	<div class="net-hot">
+		<div class="hot-title clearfix">
+			<ul class="nav navbar-nav hot-search">
+				<li><a href="#" class="hots">互联网热门公司榜</a></li>
+			</ul> 
+		</div>		
+
+		<div class="hot-tips">
+			<span> ? 在过去的24小时，最多人看过的岗位在这里 </span>
+			<a href="#" class="know">我知道了</a>
+		</div>
+		<div class="net-content">
+			<div>
+				<div class="col-sm-3 list clearfix">
+					<p><img src="#" alt="" class="img"></p>
+					<p class="txt1">数据堂</p>
+					<p class="txt2">数据服务，数据服务</p>
+					<p class="txt3">发觉数据的价值，便利人们的生活，让人们...</p>
+					<div class="txt4 clearfix">
+						<div class="col-sm-4">
+							<p class="twt">20</p>
+							<a href="#" class="twb">面试评价</a>
+						</div>
+						<div class="col-sm-4 border">
+							<p class="twt">20</p>
+							<a href="#" class="twb">面试评价</a>
+						</div>
+						<div class="col-sm-4">
+							<p class="twt">20</p>
+							<a href="#" class="twb">面试评价</a>
+						</div>	
+					</div>
+				</div>		
+				<div class="net-content">
+					<div class="col-sm-3 list clearfix">
+						<p><img src="#" alt="" class="img"></p>
+						<p class="txt1">数据堂</p>
+						<p class="txt2">数据服务，数据服务</p>
+						<p class="txt3">发觉数据的价值，便利人们的生活，让人们...</p>
+						<div class="txt4 clearfix">
+							<div class="col-sm-4">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>
+							<div class="col-sm-4 border">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>
+							<div class="col-sm-4">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>	
+						</div>
+					</div>		
+				</div>
+				<div class="net-content">
+					<div class="col-sm-3 list clearfix">
+						<p><img src="#" alt="" class="img"></p>
+						<p class="txt1">数据堂</p>
+						<p class="txt2">数据服务，数据服务</p>
+						<p class="txt3">发觉数据的价值，便利人们的生活，让人们...</p>
+						<div class="txt4 clearfix">
+							<div class="col-sm-4">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>
+							<div class="col-sm-4 border">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>
+							<div class="col-sm-4">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>	
+						</div>
+					</div>		
+				</div>
+				<div class="net-content">
+					<div class="col-sm-3 list clearfix">
+						<p><img src="#" alt="" class="img"></p>
+						<p class="txt1">数据堂</p>
+						<p class="txt2">数据服务，数据服务</p>
+						<p class="txt3">发觉数据的价值，便利人们的生活，让人们...</p>
+						<div class="txt4 clearfix">
+							<div class="col-sm-4">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>
+							<div class="col-sm-4 border">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>
+							<div class="col-sm-4">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>	
+						</div>
+					</div>		
+				</div>
+				<div class="net-content">
+					<div class="col-sm-3 list clearfix">
+						<p><img src="#" alt="" class="img"></p>
+						<p class="txt1">数据堂</p>
+						<p class="txt2">数据服务，数据服务</p>
+						<p class="txt3">发觉数据的价值，便利人们的生活，让人们...</p>
+						<div class="txt4 clearfix">
+							<div class="col-sm-4">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>
+							<div class="col-sm-4 border">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>
+							<div class="col-sm-4">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>	
+						</div>
+					</div>		
+				</div>
+				<div class="net-content">
+					<div class="col-sm-3 list clearfix">
+						<p><img src="#" alt="" class="img"></p>
+						<p class="txt1">数据堂</p>
+						<p class="txt2">数据服务，数据服务</p>
+						<p class="txt3">发觉数据的价值，便利人们的生活，让人们...</p>
+						<div class="txt4 clearfix">
+							<div class="col-sm-4">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>
+							<div class="col-sm-4 border">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>
+							<div class="col-sm-4">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>	
+						</div>
+					</div>		
+				</div>
+				<div class="net-content">
+					<div class="col-sm-3 list clearfix">
+						<p><img src="#" alt="" class="img"></p>
+						<p class="txt1">数据堂</p>
+						<p class="txt2">数据服务，数据服务</p>
+						<p class="txt3">发觉数据的价值，便利人们的生活，让人们...</p>
+						<div class="txt4 clearfix">
+							<div class="col-sm-4">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>
+							<div class="col-sm-4 border">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>
+							<div class="col-sm-4">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>	
+						</div>
+					</div>		
+				<div class="net-content">
+					<div class="col-sm-3 list clearfix">
+						<p><img src="#" alt="" class="img"></p>
+						<p class="txt1">数据堂</p>
+						<p class="txt2">数据服务，数据服务</p>
+						<p class="txt3">发觉数据的价值，便利人们的生活，让人们...</p>
+						<div class="txt4 clearfix">
+							<div class="col-sm-4">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>
+							<div class="col-sm-4 border">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>
+							<div class="col-sm-4">
+								<p class="twt">20</p>
+								<a href="#" class="twb">面试评价</a>
+							</div>	
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>	
+	</div>	
+
+	<div class="extern-link">
+		<div class="hot-title clearfix">
+			<ul class="nav navbar-nav hot-search">
+				<li><a href="#" class="hots">友情链接</a></li>
+			</ul> 
+		</div>		
+		<div class="hot-tips">
+			<ul class="nav navbar-nav">
+				<li><a href="#" class="colo">拉勾网</a></li>
+				<li><a href="#" class="colo">教师网</a></li>
+				<li><a href="#" class="colo">照片</a></li>
+				<li><a href="#" class="colo">拉勾网</a></li>
+				<li><a href="#" class="colo">教师网</a></li>
+				<li><a href="#" class="colo">照片</a></li>
+				<li><a href="#" class="colo">拉勾网</a></li>
+				<li><a href="#" class="colo">教师网</a></li>
+				<li><a href="#" class="colo">照片</a></li>
+				<li><a href="#" class="colo">拉勾网</a></li>
+				<li><a href="#" class="colo">教师网</a></li>
+				<li><a href="#" class="colo">照片</a></li>
+				<li><a href="#" class="colo">拉勾网</a></li>
+				<li><a href="#" class="colo">教师网</a></li>
+				<li><a href="#" class="colo">照片</a></li>
+				<li><a href="#" class="colo">拉勾网</a></li>
+				<li><a href="#" class="colo">教师网</a></li>
+				<li><a href="#" class="colo">照片</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="serve clearfix">
+		<div class="col-sm-3 serve-1">
+			<div class="load">
+				<div class="app">下载拉勾APP</div>
+				<div class="mcode">微信小程序</div>
+			</div>
+			<div class="chat">
+				<ul class="nav navbar-nav">
+					<li><a href="#" class="chat-c">拉勾微信</a></li>
+					<li><a href="#" class="chat-c">拉勾微博</a></li>
+				</ul>
+			</div>	
+		</div>
+		<div class="col-sm-3 list">
+			<p class="list1">企业服务</p>
+			<p class="list2">招聘抢人宝典</p>
+			<p class="list2">公司搜索</p>
+			<p class="list2">拉勾APP</p>
+		</div>
+		<div class="col-sm-3 list">
+			<p class="list1">企业服务</p>
+			<p class="list2">招聘抢人宝典</p>
+			<p class="list2">公司搜索</p>
+			<p class="list2">拉勾APP</p>
+		</div>
+		<div class="col-sm-3 list">
+			<p class="list1">企业服务</p>
+			<p class="list2">招聘抢人宝典</p>
+			<p class="list2">公司搜索</p>
+			<p class="list2">拉勾APP</p>
+		</div>
+	</div>	
+	<div class="footer clearfix">
+		<div class="col-sm-3">©2018 拉勾网 京ICP备12312343</div>
+		<div class="col-sm-3">京公安网备 110108099987658776号</div>
+		<div class="col-sm-2 infom">
+			<div>违法和不良信息举报</div>
+			<div>电话:4007878</div>
+			<div>邮箱:cc@lagou.com</div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,330 @@
+ body {
+ 	margin: 0;
+ }
+ a {
+ 	text-decoration: none;
+ }
+ .fl {
+ 	float: left;
+ }
+ .fr {
+ 	float: right;
+ }
+.header-top {
+	background-color: #32363E;
+}
+.url-lf .h-logo {
+	color: #01B38A;
+	font-size: 30px;
+	font-weight: 500;
+}
+.url-lf .h-station {
+	color: #01B38A;
+
+}
+.url-lf .h-city {
+	color: #AFB5C0;
+}
+.url-lf .h-station,
+.url-lf .h-city {
+	font-size: 14px;
+}
+.url-md .md{
+	color: #AFB5C0;
+}
+
+
+/*       header-buttom   */
+.header-buttom {
+	background-color:  #01B38A;
+}
+.header-buttom .bu-lf {
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	margin-left: 222px;
+	color: #fff;
+}
+.header-buttom .bu-rt {
+	margin-top: 45px;
+	margin-right: 10px;
+
+}
+.header-buttom .bu-rt .num,
+.header-buttom .bu-rt .code {
+	margin-right: 20px;
+}
+
+
+ /*search  */
+.search {
+	height: 132px;
+	background: #f2f5f4;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.input-s {
+	margin-top: 20px;
+	max-width: 1200px;
+}
+
+.input-s .input-ad {
+	height: 45px;
+	border-radius: 0;
+}
+.search .hot-search .hot {
+	color: #778ab9;
+}
+.search .hot-search .h {
+	color: #00c1cc;
+}
+
+			/*  hour-hot   */
+
+.hour-hot {
+	padding: 20px;
+}
+/*hot-title*/
+.hour-hot .hot-title .hot-search {
+	font-size: 20px;
+}
+
+.hour-hot .hot-title .news, .hot-tips {
+	color: #999;
+}
+.hour-hot .hot-title .hot-search .hots {
+	color: #000;
+}
+/*hot-tips*/
+.hour-hot .hot-tips {
+	border-top: 1px solid #eee;
+	padding: 10px;
+}
+.hour-hot .hot-tips .know {
+	margin-left: 30px;
+	color: #01B38A;
+}
+/*hot-content*/
+
+.hour-hot .hot-content {
+	margin-top: 20px;
+}
+.hot-list {
+	padding: 10px;
+}
+.hot-content .hot-list {
+	border: 1px solid #eee;
+
+}
+.hot-list .position {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.position .time {
+	margin-left: 5px;
+	margin-right: 30px;
+	color:  #9999b2;
+}
+.position .wage {
+	font-size: 12px;
+	color: #fa6041;
+}
+.hot-list .experience-degree {
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+.hot-list .lable {
+	padding-bottom: 20px;
+}
+.hot-list .lable .net1 {
+	margin-right: 10px;
+}
+ .hour-hot .hot-content .lable .net1,
+ .hour-hot .hot-content .lable .net2 {
+	border: 1px solid #eaeeed;
+	border-radius: 3px;
+	padding: 10px 20px 10px 20px;
+
+}
+.hot-list .firm {
+	padding-top: 20px;
+	border-top:1px dashed #eaeeed; /*虚线*/
+}
+.firm a {/*没有实现*/
+	color: #000;
+	background: red;
+}
+.firm .picture {/*没有实现*/
+border: 1px solid #eaeeed;
+}
+.hour-hot .hot-content .experience, 
+.hour-hot .hot-content .lable {
+	color: #9999b2;
+}
+.hot-list .pad {
+	border:10px;
+}
+
+.hour-hot .more .more-on{
+	margin-left: 500px;
+	margin-right: 500px;
+	border: 1px solid #00b38a;
+	color: #00b38a;
+	width: 800px;
+	font-size: 20px;
+}
+		/*   net-hot  */
+.net-hot {
+	padding: 20px;
+}
+/*hot-title*/
+.net-hot .hot-title .hot-search {
+	font-size: 20px;
+}
+
+.net-hot .hot-title .news, .hot-tips {
+	color: #999;
+}
+.net-hot .hot-title .hot-search .hots {
+	color: #000;
+}
+/*hot-tips*/
+.net-hot .hot-tips {
+	border-top: 1px solid #eee;
+	padding: 10px;
+}
+.net-hot .hot-tips .know {
+	margin-left: 30px;
+	color: #01B38A;
+}
+.net-hot .net-content {
+	margin-top: 10px;
+}
+.net-hot .net-content .list {
+	border: 1px solid #eee;
+	padding: 10px;
+	text-align: center;
+}
+.net-hot .net-content .list .img { /*图片样式*/
+	width:80px; 
+	height: 80px;
+	margin: 0 auto; 
+}
+.net-content .list .txt1 {
+	font-size: 18px;
+	font-weight: 500;
+}
+.net-content .list .txt2 {
+	color: #999999;
+}
+.net-content .list .txt4 .twt {
+	margin-bottom: 0;
+	color: #01B38A;
+}
+.net-content .list .txt4 .twb {
+	color: #999999;
+}
+.net-content .list .txt4 .border {
+	border-left: 1px solid #aaa; 
+	border-right: 1px solid #aaa; 
+}
+
+
+    /* extern-link */
+.extern-link {
+	margin-bottom: 50px;
+}
+.hot-title .hot-search {
+	font-size: 20px;
+}
+
+ .hot-title .news, .hot-tips {
+	color: #999;
+}
+.hot-title .hot-search .hots {
+	color: #000;
+}
+/*hot-tips*/
+.hot-tips {
+	border-top: 1px solid #eee;
+	padding: 10px;
+}
+.hot-tips .know {
+	margin-left: 30px;
+	color: #01B38A;
+}
+.hot-tips .colo {
+	color: #555;
+}
+
+
+     /* serve */
+
+.serve {
+	padding: 20px;
+	margin-top: 50px;
+	border-top: 1px solid #eee;
+}
+.serve-1 {
+	border-right: 1px solid #eee;
+	margin-top: 20px;
+}
+.serve .load .app {
+	margin-bottom: 15px;
+}
+.serve .load .app,
+.serve .load .mcode{
+	width: 200px;
+	height: 50px;
+	border: 1px solid #01B38A;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+}
+
+.serve .chat .chat-c {
+	color: #555;
+}
+.serve .list {
+	text-align: center;
+	padding: 20px;
+}
+.serve .list1 {
+	font-size: 17px;
+	color: #555;
+}
+.serve .list2 {
+	color: #666;
+	font-size: 13px;
+	margin-top: 20px;
+}
+ /*  footer  */
+ .footer {
+ 	background: #fafafa;
+ 	color: #666;
+	font-size: 13px;
+	padding: 20px;
+ }
+.footer .infom {
+	border: 1px solid #ccc;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
