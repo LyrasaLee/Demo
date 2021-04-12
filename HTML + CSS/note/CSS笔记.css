@@ -1,0 +1,98 @@
+
+1.背景：
+background-attachment: 背景图像是否固定或随着页面的其余部分滚动
+background-position: 背景图片的起始位置
+background-repeat: 背景图片是否及如何重复，用于将图片设置为背景时
+background-clip ：
+2.文本：
+text-indent:首行缩进
+text-transform:改大小写
+text-shadow: 文本添加阴影
+text-wrap: 换行，使用时先规定宽度
+3.字体：
+font-fimily： 字体类型
+
+4.链接的4中状态：
+link:普通、未被访问的
+visited :用户已经访问
+hover: 鼠标位于链接上方
+active：链接被点击时
+
+5.CSS轮廓：用来突出元素作用(重点)
+	outline：轮廓属性
+	outline-color: 颜色
+	outline-style: 轮廓样式
+	outline-width: 宽度
+6.position 4个属性：
+	relative：
+	absoluate:
+	fixed：
+7.边距：
+	内边距：padding
+	外边距：margin
+	边框：border(可以设置单边框样式)
+		box-shadow:边框阴影
+8.对齐：
+	3种方式：
+		margin水平对齐：
+			居中：
+			margin-left:auto
+			margin-right: auto
+			或：margin: 0px auto;
+
+		position左右对齐：
+			右对齐：
+				position: absolute;
+				right: 0px;
+			左对齐：
+				position: absolute;
+				left: 0px;
+		float左右对齐：
+			float：right
+			float：left
+visibility:内容不可见
+	bility：可见
+
+	
+9.选择器：
+	元素选择器 p、a、li、ul等
+	多类选择器
+	id选择器
+	属性选择器：[title]{}
+	后代选择器
+	子元素选择器
+	相邻兄弟选择器
+
+10. 2D、3D的转换：
+	元素进行移动、缩放、转动、拉长、拉伸
+	转换是使元素改变形状、尺寸和位置
+	2D转换方法：
+		translate(x,y): 移动距离;
+		rotate()
+		scale()
+		skew()
+		matrix()
+	3D转换方法：
+		rotatex()
+		rotatey()
+
+11. 过度属性
+	1)transition
+	transition-property: 过渡名称
+	transition-duration: 过渡效果花费的时间
+	transition-timing-function: 过渡效果的时间曲线
+	transition-delay: 过渡效果开始时间(延时开始时间)
+	2)动画的时长和名称 
+12.多列
+	对文本或区域布局
+		属性：
+			column-count:
+			column-gap:
+			column-rule:
+
+13.瀑布流
+  满屏显示许多图片图片
+
+
+
+

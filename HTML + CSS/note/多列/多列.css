@@ -1,0 +1,7 @@
+.div1 {
+	column-count: 4;/*分列数量*/
+	-webkit-column-gap:30px;
+	column-gap: 30px;/*列间间隔距离*/
+	column-rule: 5px outset #ff0000;/*间隔线宽，颜色*/
+	-webkit-column-rule:5px outset #ff0000;
+}

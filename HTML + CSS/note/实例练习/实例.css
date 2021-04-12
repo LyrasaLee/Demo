@@ -1,0 +1,95 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: snow;
+}
+.wapper {
+	width: 80%;
+	height: 1000px;
+	background-color: antiquewhite;
+	margin: 0px auto;
+}
+.heading {
+	margin: 0px auto;
+	width: 100%;
+	height: 90px;
+	background-color: snow;
+}
+.heading_nav {
+	padding-bottom: 30px;
+	padding-top: 30px;
+	width: 100%;
+	height: 30px;
+	position: relative; 
+}
+.heading_title {
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: burlywood;
+}
+ul {
+	margin-left: 40px;
+	float: left;
+	list-style: none;/*去序号点*/
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+/*列表横向显示*/
+li {
+	padding-left: 10px;
+	display: inline;
+}
+/* a标签link属性，点击效果*/
+a:link, a:visited {
+	font-weight: bold;
+	color: darkgray;
+	text-align: center;
+	padding: 6px;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: dimgray;
+}
+.heading_img img {
+	border-radius: 30px;
+	display: inline;
+	width: 26px;
+	height: 26px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.2);
+	float: right;
+}
+.heading_sop form {
+	float: right;
+	width: 100px;
+	height: 26px;
+	position: relative;
+	margin-right: 50px;
+}
+form input {
+	height: 26px;
+	border-radius: 5px;
+}
+.body {
+	height: auto;
+	width: auto;
+	padding: 20px;
+}
+.body_title p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+.body_title h3{
+	font-size: 30px;
+	font-family: "宋体"；
+	color: #333333;
+}
+.footing {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 10px;
+	color: darkgray;
+}

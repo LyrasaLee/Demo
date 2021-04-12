@@ -1,0 +1,28 @@
+
+/*规定动画的时长和名称*/
+div	{
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+	position: relative;/*相对布局*/
+	animation: anim 5s infinite alternate;/*keyframes(动画帧)名称：anim     5s ：动画执行时间*/
+						/*infinite alternate: 循环运动*/
+	-webkit-animation:anim 5s infinite alternate; /*浏览器支持*/
+}
+@keyframes anim{
+	0% { background: red;left: 0px;top: 0px; }
+	25% { background: green;left: 200px;top: 0px; }
+	50% { background: pink;left: 200px;top: 200px; }
+	75% { background: yellow;left: 0px;top: 200px; }
+	100% { background: red;left: 0px;top: 0px; }
+}
+
+@-webkit-keyframes anim {
+	0% { background: red;left: 0px;top: 0px; }
+	25% { background: green;left: 200px;top: 0px; }
+	50% { background: pink;left: 200px;top: 200px; }
+	75% { background: yellow;left: 0px;top: 200px; }
+	100% { background: red;left: 0px;top: 0px; }
+}
+
+
