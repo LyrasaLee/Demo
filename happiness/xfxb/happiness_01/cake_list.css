@@ -1,0 +1,25 @@
+.body .list li {
+	display: inline-block;
+	border: 1px solid #e2e2e2;
+	margin-bottom: 20px;
+}
+.body .list img {
+	width: 269px;
+    height: 270px;
+    margin-right: 29px;
+    margin: 0px auto;
+    padding: 10px;
+}
+.body .list {
+	border: 1px solid #fff;
+	text-align: center;
+}
+.body .list p {
+	color: #4e6259;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.body .list li p:nth-of-type(2) {
+	color: #7f4b4d;
+}
