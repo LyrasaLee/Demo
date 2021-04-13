@@ -1,12 +1,24 @@
 
 1.背景：
-background-attachment: 背景图像是否固定或随着页面的其余部分滚动
-background-position: 背景图片的起始位置
+background-attachment:  scroll(背景相对于元素本身固定，不随元素内容滚动)、fixed(背景不随元素内容滚动)、local(背景随元素内容滚动)、/local，scroll、/scroll，local/背景图像是否固定或随着页面的其余部分滚动
+background-position:top、left、center(背景图居中)、25% 75%、bottom 50px right 100px、right 35px bottom 45px/背景图片的起始位置
 background-repeat: 背景图片是否及如何重复，用于将图片设置为背景时
-background-clip ：
+		repeat:图像会按需重复来覆盖整个背景图片所在的区域.最后一个图像会被裁剪, 如果它的大小不合适的话.
+		space:图像会尽可能得重复, 但是不会裁剪. 
+		round:随着允许的空间在尺寸上增长，被重复的图像会伸展(没有多余孔隙时)，直到有足够空间来添加新图像.
+		no-repeat: 不重复，位置有background-position决定.
+background-clip ：设置元素的背景（背景图片或颜色）是否延伸到边框、内边距盒子、内容盒子下面.
+		border-box:背景延伸到边框
+		padding-box:背景延伸到内边距
+		content-box:背景延伸到内容
+		text:前景色
+		background-clip: text;
+		-webkit-background-clip: text;
+		color: transparent;
+	注意：若没有设置背景图片和背景颜色，则这个属性只能在边框被设置为非固实(solid)、透明或半透明时才能看见视觉效果，否则属性产生的样式会被边框覆盖。
 2.文本：
-text-indent:首行缩进
-text-transform:改大小写
+text-indent:(px、mm、%、em)首行缩进 hanging：除了第一行，其他的都缩进
+text-transform:改大小写(lowercase uppercase none full-width(将一些文字调整为相同宽度) capitalize:首字母大写)
 text-shadow: 文本添加阴影
 text-wrap: 换行，使用时先规定宽度
 3.字体：
@@ -23,10 +35,12 @@ active：链接被点击时
 	outline-color: 颜色
 	outline-style: 轮廓样式
 	outline-width: 宽度
-6.position 4个属性：
-	relative：
-	absoluate:
-	fixed：
+6.position 4个属性：指定元素在文档中的定位方式
+	relative：相对定位,不影响其他元素
+	absoluate:绝对定位,可能覆盖其他元素
+	fixed:绝对定位，常用语设置滚动屏幕
+	注意：绝对定位可设置外边距，且不与其他边距合并
+	sticky:粘性定位
 7.边距：
 	内边距：padding
 	外边距：margin
@@ -63,18 +77,18 @@ visibility:内容不可见
 	子元素选择器
 	相邻兄弟选择器
 
-10. 2D、3D的转换：
+10. 2D、3D的转换：transform:
 	元素进行移动、缩放、转动、拉长、拉伸
 	转换是使元素改变形状、尺寸和位置
 	2D转换方法：
-		translate(x,y): 移动距离;
-		rotate()
-		scale()
-		skew()
-		matrix()
+		transform: translate(x,y): 移动距离;
+			rotate(180deg)：旋转
+			scale(1，2)：缩放宽度，高度
+			skew(50deg，50deg)：x，y轴
+			matrix()
 	3D转换方法：
-		rotatex()
-		rotatey()
+		transform: rotatex()
+			   rotatey()
 
 11. 过度属性
 	1)transition
@@ -83,12 +97,17 @@ visibility:内容不可见
 	transition-timing-function: 过渡效果的时间曲线
 	transition-delay: 过渡效果开始时间(延时开始时间)
 	2)动画的时长和名称 
+		
+	2)动画的时长和名称 
+		一个动画在多个方向移动0、25%、50%、75%、100%；要设置相对位置、动画帧名称和执行时间
+		infinite alternate: 循环运动
+		keyframes:动画帧
 12.多列
 	对文本或区域布局
-		属性：
-			column-count:
-			column-gap:
-			column-rule:
+		属性(需要设置浏览器)：
+			column-count: 分列数量
+			column-gap:列间距距离
+			column-rule: 间隔线的宽度和颜色
 
 13.瀑布流
   满屏显示许多图片图片
