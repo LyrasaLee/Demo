@@ -7,7 +7,7 @@ div {
 	-webkit-transition-delay: 2s;/*延时2s后执行旋转*/
 	transition-delay: 2s;
 }
-div:hover {
+div:hover {/*  div:hover---不能有空格   */
 	width: 200px;
 	height: 200px;
 	transform: rotate(360deg);/*旋转*/
