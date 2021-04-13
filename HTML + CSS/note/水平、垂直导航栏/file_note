@@ -1,4 +1,4 @@
 
 列表横向排列设置：
-  ul { list-style-type: none;}
-  li { display: inline-block;}
+  ul { list-style-type: none;}/*去除序号*/
+  li { display: inline-block;}/*横向排列*/
