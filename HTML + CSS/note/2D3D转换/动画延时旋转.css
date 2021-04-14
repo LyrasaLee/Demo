@@ -12,4 +12,8 @@ div:hover {/*  div:hover---不能有空格   */
 	height: 200px;
 	transform: rotate(360deg);/*旋转*/
 	-webkit-transform:rotate(360deg);
+	/* 只放大不旋转
+	transition: 2s;
+	-webkit-transition: 2s;
+	*/
 }
