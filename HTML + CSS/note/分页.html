@@ -1,1 +1,52 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>分页</title>
+	<meta charset="utf-8">	
+	<!-- <link rel="stylesheet" href="demo.css"> -->
+</head>
+  
+<body>
+	<div class="container">
+		<ul class="pagnation">
+			<li><a href="#"> << </a></li>
+			<li><a href="#">1</a></li>
+			<li><a href="https://music.163.com/#/song?id=1833149339" class="active">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+			<li><a href="#"> >> </a></li>
+		</ul>
+	</div>
+</body>
+  
+  
+<style>
+	ul.pagnation {
+		display: inline-block;
+		padding: 0px;
+		margin: 0px;
+	}
+	ul.pagnation li {
+		display: inline-block;
+	}
+	ul.pagnation li a {
+		color: #aaa;
+		float: left;
+		padding: 8px 16px;
+		text-decoration: none;
+	}
+	ul.pagnation .active {
+		background: green;
+		border-radius: 7px;
+	}
+	ul.pagnation li a:hover {
+		background: #eee;
+		transition: 300ms;
+		-webkit-transition: 200ms;
+		border-radius: 7px;
+	}
+</style>
+  
+</html>
