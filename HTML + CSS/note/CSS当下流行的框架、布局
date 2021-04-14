@@ -1,1 +1,58 @@
 
+
+
+/*
+1. 输入用户名，ID，密码
+2. 单选按钮
+3. 复选框
+4. 下拉 和预选下拉
+5. 提交按钮
+6. 文本域
+7. 带边框的表单
+8. 有输入和确认按钮的表单
+9. 复选框表单和单选框表单
+*/
+/*
+web前端目前常用的各种方式 ---CSS
+	 1.	web布局方法：
+		 	flexbox: ;
+		 	Grid:
+
+	 2.	图形与图像适配：
+		 	filters & effects:;
+		 	object-fit：
+		 	shapes：	
+		 	clip-path: ;
+      
+	 3.	交互:
+	 		pointer-events
+      
+	 4.	排版：
+	 		@font-face
+      
+	 5.	动画和过渡(目前主流3大方式)：
+		 	transition:;
+		 	transform:;
+		 	animations:;
+      
+	 6.	框架：
+		 	Tailwind
+		 	bootstrap已经老了
+      
+	 7.	预/后处理：
+		 	PostCSS
+		 	Sass
+      
+	 8.	库：
+	 		React
+      
+	 9.	常用的工具函数库：
+	 		Styleint
+      
+	10.其他工具函数库
+			Prettier
+      
+	11.使用环境：
+			chrome、firefox
+
+*/
