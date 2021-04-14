@@ -1,3 +1,7 @@
+/*
+ 消除两个盒子模型间的空隙方法：在两个盒子的父级元素设置font-size：0px；两个子级元素设置font-size：16px；(如body-yes部分)
+*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -34,7 +38,26 @@
 	height: 50px;
 	background-color: red;
 }
-
+.body .body-content .body-yes {
+	width: 100%;
+	height: 1050px;
+	background: #eee;
+	font-size: 0px;
+}
+.body .body-content .body-yes .body-left {
+	width: 50%;
+	height: 1050px;
+	font-size: 16px;
+	background: gold;
+	display: inline-block;
+}
+.body .body-content .body-yes .body-right {
+	width: 50%;
+	height: 1050px;
+	font-size: 16px;
+	background: pink;
+	display: inline-block;
+}
 .footer {
 	width: 75%;
 	height: 400px;
