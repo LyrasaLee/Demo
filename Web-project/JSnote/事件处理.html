@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>事件处理</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	
+	<!-- 1. 事件处理 要修改一处元素或其他，同时需要修改多处，不方便-->
+	<!-- <script>
+		<div id="div">
+			<button id="btn1" onclick="demo()">按钮</button>
+		</div>
+		function demo(){
+			alert("hello事件处理");
+		}
+	</script> -->
+
+	<!-- 2. DOM0级事件处理  多个事件处理时，前面事件会被覆盖-->
+		<!-- <script>
+				<div id="div">
+				<button id="btn1" onclick="demo()">按钮</button>
+			</div>
+			var btn1 = document.getElementById('btn1');
+			btn1.onclick = function(){alert("hello事件处理DOM0 1")}
+			btn1.onclick = function() {alert("hello事件处理DOM0 2")}；
+			btn1.onclick = function() {alert("hello事件处理DOM0 3")}；
+			//btn1.onclick = null;//清除事件
+		</script> -->
+
+	<!-- 3. ✅重要  DOM2级事件处理 (添加addEventListener)每一条事件都会显示 -->
+	<!-- <script>
+		var btn1 = document.getElementById('btn1');
+		btn1 = addEventListener("click",demo1);
+		btn1 = addEventListener("click",demo2);
+		btn1 = addEventListener("click",demo3);
+		function demo1(){
+			alert("dom2事件处理程序1。");
+		}
+		function demo2(){
+			alert("dom2事件处理程序2。");
+		}
+		function demo3(){
+			alert("dom2事件处理程序3。");
+		}
+		btn1 = removeEventListener("click",demo2);//移除事件2
+	</script> -->
+
+	<!-- 4. 兼容浏览器 -->
+	<div id="div">
+		<button id="btn1">按钮</button>
+	</div>
+	<script>
+		var btn1 = document.getElementById('btn1');
+		if(btn1.addEventListener){
+			btn1.addEventListener("click",demo);			
+		}else if (btn1.attachEvent) {
+			btn1.attachEvent('onclick',demo);
+		}else {
+			btn1.onclick = demo();
+		}
+		function demo(){
+			alert("hello");
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>事件对象</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<!-- 1. 获取事件类型和目标 -->
+	<!-- <div id="div">
+		<button id="btn1">按钮</button>
+	</div>
+	<script>
+		document.getElementById('btn1').addEventListener('click',showType);
+	    function showType(event) {
+	    	// alert(event.type);//获取事件类型为click
+	    	alert(event.target);//获取事件目标 HTMLButtonElement
+	    }
+	</script> -->
+
+	<!-- 事件冒泡、阻止事件冒泡 -->
+	<!-- <div id="div">
+		<button id="btn1">按钮</button>
+		<a href="https://www.baidu.com" id="aid">百度</a>
+	</div>
+	<script>
+		document.getElementById('btn1').addEventListener('click',showType);
+	    document.getElementById('div').addEventListener('click',showDiv)
+	    function showType(event) {
+	    	// alert(event.type);//获取事件类型为click
+	    	alert(event.target);//获取事件目标 HTMLButtonElement
+	    	event.stopPropagation();//阻止事件冒泡
+	    }
+	    function showDiv (){
+	    	alert("div")://事件冒泡
+	    }
+	</script> -->
+
+	<!-- 事件   -->
+	<div id="div">
+		<button id="btn1">按钮</button>
+		<a href="https://www.baidu.com" id="aid">百度</a>
+	</div>
+	<script>
+		document.getElementById('btn1').addEventListener('click',showType);
+	    document.getElementById('div').addEventListener('click',showDiv)
+	    document.getElementById('aid').addEventListener('click',showA)
+	    function showType(event) {
+	    	// alert(event.type);//获取事件类型为click
+	    	alert(event.target);//获取事件目标 HTMLButtonElement
+	    	event.stopPropagation();//阻止事件冒泡
+	    }
+	    function showDiv (){
+	    	alert("div")://事件冒泡
+	    }
+	    function showA(event){
+	    	event.stopPropagation();
+	    	event.preventDefault();//阻止事件默认
+	    }
+	</script>
+</body>
+</html>

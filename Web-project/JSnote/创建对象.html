@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>chuang</title>
+</head>
+<body>
+	<script>
+		//方式1
+		// people = new Object();
+		// people.name = "iewn";
+		// people.age = 30;
+		// document.write("name: " +  people.name + ",age:" + people.age);
+
+		//方式2
+		// people = {name:"iewn", age:30};
+		// document.write("name: " +  people.name + ",age:" + people.age);
+
+		//方式3
+		function people(name,age){
+			this.name = name;
+			this.age = age;
+		}
+		son = new people("iewn",30);
+		document.write("name : " + son.name +", age :" + son.age);
+	</script>
+</body>
+</html>
