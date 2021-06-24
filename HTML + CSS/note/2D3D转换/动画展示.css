@@ -7,7 +7,7 @@ div	{
 	overflow: hidden;
 	position: relative;/*相对布局 ---必须设置，不然没有效果*/
 	animation: anim 5s infinite alternate;/*keyframes(动画帧)名称：anim     5s ：动画执行时间*/
-						/*infinite alternate: 循环运动 没有连接符*/
+						/*infinite alternate: 无限交替 之间没有连接符*/
 	-webkit-animation:anim 5s infinite alternate; /*浏览器支持*/
 }
 
