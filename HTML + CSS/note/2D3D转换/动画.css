@@ -8,6 +8,8 @@ div {
 /*移动*/
 /*.div2 {*/
 	/*transform: translate(200px,200px);*/
+	/*transform:translateX(200px)*/ /*单独设置x轴移动*/
+	/*transform:translateY(200px)*/ /*单独设置y轴移动*/
 	/*-webkit-transform:translate(100px,100px);/*支持chrome、safari浏览器*/
 	/*-ms-transform:translate(200px,100px);/*IE*/
 	/*-o-transform:translate(200px,100px);/*opera*/
