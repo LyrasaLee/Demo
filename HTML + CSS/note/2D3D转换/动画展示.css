@@ -4,11 +4,14 @@ div	{
 	width: 100px;
 	height: 100px;
 	background-color: pink;
+	overflow: hidden;
 	position: relative;/*相对布局 ---必须设置，不然没有效果*/
 	animation: anim 5s infinite alternate;/*keyframes(动画帧)名称：anim     5s ：动画执行时间*/
 						/*infinite alternate: 循环运动 没有连接符*/
 	-webkit-animation:anim 5s infinite alternate; /*浏览器支持*/
 }
+
+/* 定义关键帧的规则 */
 @keyframes anim{
 	0% { background: red;left: 0px;top: 0px; }
 	25% { background: green;left: 200px;top: 0px; }
@@ -16,8 +19,11 @@ div	{
 	75% { background: yellow;left: 0px;top: 200px; }
 	100% { background: red;left: 0px;top: 0px; }
 }
-
-@-webkit-keyframes anim {
+/*  
+   @keyframes : 通过在动画序列中定义关键帧的样式来控制css动画序列中的中间步骤
+	keyframes（关键帧）：可以控制动画序列中的中间步骤
+*/
+@-webkit-keyframes anim {/* 适应浏览器 */
 	0% { background: red;left: 0px;top: 0px; }
 	25% { background: green;left: 200px;top: 0px; }
 	50% { background: pink;left: 200px;top: 200px; }
