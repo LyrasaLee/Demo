@@ -8,9 +8,69 @@
 7. https://36kr.com/p/1537204216784133
 8. https://wangdoc.com/   ---------网道（文档资料）
 9. https://segmentfault.com/a/1190000041031214    ----------web全套笔记
+10. https://www.nowcoder.com/ta/js-assessment  -------前端能力测评经典题
+11. https://www.nowcoder.com/ta/front-end-interview --------前端面试经典题
+12. https://www.nowcoder.com/questionCenter?mutiTagIds=644 -----前端试题广场
 参考网页：
   https://luolei.org/ 
   https://webtoolsweekly.com/
-  
+ 
+ 
+ 
+ 
+ 
+问题：
+```
+lyra@F7692051 05 components-cookbook % npm install --global yarn
+npm ERR! code ECONNREFUSED
+npm ERR! syscall connect
+npm ERR! errno ECONNREFUSED
+npm ERR! FetchError: request to https://registry.npm.taobao.org/yarn failed, reason: connect ECONNREFUSED 127.0.0.1:1080
+npm ERR!     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:110:14)
+npm ERR!     at ClientRequest.emit (node:events:390:28)
+npm ERR!     at onerror (/usr/local/lib/node_modules/npm/node_modules/agent-base/dist/src/index.js:117:21)
+npm ERR!     at callbackError (/usr/local/lib/node_modules/npm/node_modules/agent-base/dist/src/index.js:136:17)
+npm ERR!     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+npm ERR!  FetchError: request to https://registry.npm.taobao.org/yarn failed, reason: connect ECONNREFUSED 127.0.0.1:1080
+npm ERR!     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:110:14)
+npm ERR!     at ClientRequest.emit (node:events:390:28)
+npm ERR!     at onerror (/usr/local/lib/node_modules/npm/node_modules/agent-base/dist/src/index.js:117:21)
+npm ERR!     at callbackError (/usr/local/lib/node_modules/npm/node_modules/agent-base/dist/src/index.js:136:17)
+npm ERR!     at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+npm ERR!   code: 'ECONNREFUSED',
+npm ERR!   errno: 'ECONNREFUSED',
+npm ERR!   syscall: 'connect',
+npm ERR!   address: '127.0.0.1',
+npm ERR!   port: 1080,
+npm ERR!   type: 'system',
+npm ERR!   requiredBy: '.'
+npm ERR! }
+npm ERR! 
+npm ERR! If you are behind a proxy, please make sure that the
+npm ERR! 'proxy' config is set properly.  See: 'npm help config'
+```
+解决：
+
+```
+	npm config set http null
+ 	npm config set https-proxy null
+```
+ 
+
+之后的问题（好像是网络问题）：
+
+npm ERR! code ETIMEDOUT
+npm ERR! syscall connect
+npm ERR! errno ETIMEDOUT
+npm ERR! network request to https://registry.npm.taobao.org/yarn failed, reason: connect ETIMEDOUT 124.225.167.219:443
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+
+
+
   
   
