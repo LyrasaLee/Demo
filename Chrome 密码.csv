@@ -1,0 +1,16 @@
+name,url,username,password
+10.149.157.23,http://10.149.157.23:3000/user/login,1782695083@qq.com,qwert12345
+10.149.161.243,http://10.149.161.243:8080/,F7692051,F7692051
+10.191.131.16,http://10.191.131.16:3128/,F7692051,V8Hj55ed
+10.191.131.21,http://10.191.131.21:3128/,F7692051,V8Hj55ed
+10.191.131.45,http://10.191.131.45:3128/,F7692051,V8Hj55ed
+idmsa.apple.com,https://idmsa.apple.com/appleauth/auth/authorize/signin,lyralee_sa@126.com,Qwert225625
+idmsac.apple.com,https://idmsac.apple.com/authenticate,tim.jl.feng,Apple99j.
+i.csdn.net,https://i.csdn.net/,19868923563,Qwert225625
+passport.csdn.net,https://passport.csdn.net/login,19868923563,Qwert225625
+eisp.idsbgcd.efoxconn.com,http://eisp.idsbgcd.efoxconn.com/,F7692051,dsbg123.10
+iedu.foxconn.com,http://iedu.foxconn.com/,F7692051,Qwert225625
+sso.foxconn.com,https://sso.foxconn.com/Account/Login,F7692051,Qwert225625
+www.nowcoder.com,https://www.nowcoder.com/intelligentTest,19868923563,qwert12345
+www.nowcoder.com,https://www.nowcoder.com/intelligentTest,2401,qwert12345
+www.thepaper.cn,https://www.thepaper.cn/,19868923563,qwert225625
