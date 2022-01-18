@@ -28,70 +28,20 @@ https://docs.github.com/en/rest/reference/commits   -------github Docs
  
  视频上传：
  https://www.feishu.cn/product/drive ---------飞书
-问题：
-```
-lyra@F7692051 05 components-cookbook % npm install --global yarn
-npm ERR! code ECONNREFUSED
-npm ERR! syscall connect
-npm ERR! errno ECONNREFUSED
-npm ERR! FetchError: request to https://registry.npm.taobao.org/yarn failed, reason: connect ECONNREFUSED 127.0.0.1:1080
-npm ERR!     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:110:14)
-npm ERR!     at ClientRequest.emit (node:events:390:28)
-npm ERR!     at onerror (/usr/local/lib/node_modules/npm/node_modules/agent-base/dist/src/index.js:117:21)
-npm ERR!     at callbackError (/usr/local/lib/node_modules/npm/node_modules/agent-base/dist/src/index.js:136:17)
-npm ERR!     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-npm ERR!  FetchError: request to https://registry.npm.taobao.org/yarn failed, reason: connect ECONNREFUSED 127.0.0.1:1080
-npm ERR!     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:110:14)
-npm ERR!     at ClientRequest.emit (node:events:390:28)
-npm ERR!     at onerror (/usr/local/lib/node_modules/npm/node_modules/agent-base/dist/src/index.js:117:21)
-npm ERR!     at callbackError (/usr/local/lib/node_modules/npm/node_modules/agent-base/dist/src/index.js:136:17)
-npm ERR!     at processTicksAndRejections (node:internal/process/task_queues:96:5) {
-npm ERR!   code: 'ECONNREFUSED',
-npm ERR!   errno: 'ECONNREFUSED',
-npm ERR!   syscall: 'connect',
-npm ERR!   address: '127.0.0.1',
-npm ERR!   port: 1080,
-npm ERR!   type: 'system',
-npm ERR!   requiredBy: '.'
-npm ERR! }
-npm ERR! 
-npm ERR! If you are behind a proxy, please make sure that the
-npm ERR! 'proxy' config is set properly.  See: 'npm help config'
-```
-解决：
-
-```
-	npm config set http null
- 	npm config set https-proxy null
-```
- 
-
-之后的问题（好像是网络问题）：
-
-npm ERR! code ETIMEDOUT
-npm ERR! syscall connect
-npm ERR! errno ETIMEDOUT
-npm ERR! network request to https://registry.npm.taobao.org/yarn failed, reason: connect ETIMEDOUT 124.225.167.219:443
-npm ERR! network This is a problem related to network connectivity.
-npm ERR! network In most cases you are behind a proxy or have bad network settings.
-npm ERR! network 
-npm ERR! network If you are behind a proxy, please make sure that the
-npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
 
 
-npm ERR! code E403
-npm ERR! 403 403 Forbidden - GET https://registry.npmjs.org/yargs-parser/-/yargs-parser-13.1.1.tgz
-npm ERR! 403 In most cases, you or one of your dependencies are requesting
-npm ERR! 403 a package version that is forbidden by your security policy, or
-npm ERR! 403 on a server you do not have access to.
 
-  
-  https://stackoverflow.com/questions/34260755/npm-install-403-issue
   
 npm ERR! 403 403 Forbidden - GET https://registry.npm.taobao.org/yargs-parser/-/yargs-parser-13.1.1.tgz
-
 npm ERR! 407 Proxy Authentication Required - GET https://registry.npm.taobao.org/concurrently
+解决：代理10.191.131.45:3128 改成了10.191.131.21:3128就可以了（具体为什么也不知道，因为改过16，但是还是不行）
+
+公司代理配置：
 sass_binary_site=http://cdn.npm.taobao.org/dist/node-sass
 proxy=http://F7692051:V8Hj55ed@10.191.131.45:3128/
 https-proxy=http://F7692051:V8Hj55ed@10.191.131.45:3128/
 registry=https://registry.npm.taobao.org/
+
+
+
+
