@@ -1,0 +1,33 @@
+Hi Guys，
+
+工作的日程化管理：
+
+1. 周二上午：会议，明确列出本周的每条目标和任务并执行。拟出本周报告基本模版。
+2. 周四下午：会议，检查完成情况检查本周每条任务和目标的完成情况。更新本周报告的进度内容。
+3. 周五：会议，简要列出下周大概要做哪些。完成本周报告，并发送。
+
+例如：针对 Refactor project list of sidebar目标。
+周二会议讨并确定Refactor project list of sidebar目标有哪些具体的工作要做。
+1. UI：sidebar修改修饰的位置样式风格。
+2. Model：随着UI做相应的变更。
+
+周四会议：检查Refactor project list of sidebar完成得怎么样。
+以下是一些检查点：
+
+UI需要检查的方面：
+1. 有没有UI需要显示的内容？
+2. 合不合理UI显示样式风格好不好看？
+3. 是不是真正从Model中动态获取的数据？
+
+Model型需要检查的方面：
+1. 是不是能给UI提供对应的模型数据。 例如：Probe：「 id name」
+
+Protocol检查的方面：
+1. 有没有Model需要的API。例如：需要一个获取所有probe的API。
+2. 需要的protocol有没有完成具体的实现。
+
+
+周五会议回顾一周工作成果，展望下周做什么，发报告。
+
+
+Thanks and best regards,
