@@ -12,10 +12,12 @@
 11. https://www.nowcoder.com/ta/front-end-interview --------前端面试经典题
 12. https://www.nowcoder.com/questionCenter?mutiTagIds=644 -----前端试题广场
 
-App开发：
+GitHub App开发：
 https://toutiao.io/posts/1z33wue/preview ---------如何写一个Github App
 https://docs.github.com/en/rest/reference/commits   -------github Docs
 https://www.jianshu.com/p/a9c0b277a3b3   ------------  第三方登入例子
+https://github.com/octokit/octokit.js   -------octokit git官方库
+https://github.com/probot/probot  -----probot框架
 
 参考网页：
   https://luolei.org/ 
