@@ -44,6 +44,15 @@ registry=https://registry.npm.taobao.org/
 
 
 
+GitHub Apps进展怎么样，我们需要思考几个问题。
+1. 获取Git repo中的信息来进行绘制可视化数据图形是不是可行的？
+2. 大家对GitHub官方提供的Octkit库，学习了解得怎么样了？
+3. 如果大家选用js访问GitHub，那么对probot框架了解多少，学习得怎么样了？
+4. 大家对js的各种绘图库（例如：echarts.js）学习了解的怎么样了？
+5. 目前有初步的demo可以展示吗？如果demo代码的在哪里可以获取？
+6. 目前还有哪些难题需要攻克？
+
+
 需要了解的内容：
 npm
 yarn
