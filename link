@@ -20,6 +20,7 @@ https://github.com/octokit/octokit.js   -------octokit git官方库
 https://github.com/probot/probot  -----probot框架
 https://docs.github.com/cn/developers/apps/building-github-apps/creating-a-github-app-from-a-manifest   --------- gitHub Docs
 https://github.com/ecomfe/vue-echarts  ------ VUE Echarts（绘图）
+https://www.jianshu.com/p/97ee90104fbb  ----------VUE3 安装
 
 GitHub Apps进展怎么样，我们需要思考几个问题。
 1. 获取Git repo中的信息来进行绘制可视化数据图形是不是可行的？
